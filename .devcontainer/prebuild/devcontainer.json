@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/miguelrodo/comp-dev-test",
+  "image": "ghcr.io/miguelrodo/dev-test-main",
   "features": {
     "ghcr.io/MiguelRodo/DevContainerFeatures/renv-cache:1": {
       "debug": true,
