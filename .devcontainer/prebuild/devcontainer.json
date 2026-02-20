@@ -1,0 +1,25 @@
+{
+  "image": "ghcr.io/miguelrodo/comp-dev-test",
+  "features": {
+    "ghcr.io/MiguelRodo/DevContainerFeatures/renv-cache:1": {
+      "debug": true,
+      "debugRenv": true
+    },
+    "ghcr.io/MiguelRodo/DevContainerFeatures/repos:2": {},
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "xvfb,vim,libcurl4-openssl-dev,libsecret-1-dev,jq"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+      "installTinyTex": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto",
+        "REditorSupport.r",
+        "mathematic.vscode-pdf"
+      ]
+    }
+  }
+}
