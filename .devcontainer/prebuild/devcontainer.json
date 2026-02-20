@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/miguelrodo/dev-test-main:e0b77db",
+  "image": "ghcr.io/miguelrodo/dev-test-main:82085ab",
   "customizations": {
     "vscode": {
       "extensions": [
