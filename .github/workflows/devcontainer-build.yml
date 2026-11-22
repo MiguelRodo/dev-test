@@ -6,6 +6,7 @@ on:
       - 'main'
     paths:
       - '.devcontainer/**'
+      - '.github/workflows/devcontainer-build.yml'
   workflow_dispatch:
 
 jobs:
@@ -24,3 +25,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           bump_type: patch
+          inject_build_info: 'false'
