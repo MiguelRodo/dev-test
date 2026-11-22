@@ -10,7 +10,9 @@
       "debug": true,
       "debugRenv": true
     },
-    "ghcr.io/MiguelRodo/DevContainerFeatures/repos:2": {},
+    "ghcr.io/MiguelRodo/DevContainerFeatures/utils:1.1.0": {
+      "installSetupmjr": false
+    },
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "xvfb,vim,libcurl4-openssl-dev,libsecret-1-dev,jq"
     },
